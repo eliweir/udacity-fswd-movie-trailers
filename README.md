@@ -4,14 +4,9 @@ Basic movie trailer website created with Python, in partial fulfilment of the Ud
 
 ## Modules
 
-1. movie_trailers_website.py
-Main module, that imports others as needed. Creates a list of movies , then passes the list to an HTML generator module to output static content.
-
-2. media.py
-Used by `movie_trailers_website.py` to instantiate movies.
-
-3. generate_html.py
-Used by `movie_trailers_website.py` to generate static HTML page from a list of movies.
+1. movie_trailers_website.py - the core module, that imports others as needed. Creates a list of movies , then passes the list to an HTML generator module to output static content.
+2. media.py - used by `movie_trailers_website.py` to instantiate movies.
+3. generate_html.py - used by `movie_trailers_website.py` to generate static HTML page from a list of movies.
 
 ##Usage
 To use, simply run `movie_trailers_website.py`. This will generate an `index.html` file which will then be displayed. If the `index.html` file already exists it will be overwritten. The `index.html` file can also be viewed directly.
@@ -31,6 +26,7 @@ Movies have the following properties, which are all strings:
 
 *Example*
 Here is an example of creating an instance for Toy Story, which can then be added to the list of movies to be displayed:
+
 ```python
 toy_story = media.Movie("Toy Story",
                         "1995",
