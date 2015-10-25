@@ -13,7 +13,8 @@ To use, simply run `movie_trailers_website.py`. This will generate an `index.htm
 
 If you wish, the list of movies can be edited (e.g. movies added, removed, and properties such as description changed) in the `movie_trailers_website.py` module.
 
-*Movie properties*
+**Movie properties**
+
 Movies have the following properties, which are all strings:
 `title` The movie title
 `year` Year the movie was released
@@ -24,7 +25,8 @@ Movies have the following properties, which are all strings:
 `trailer_url` URL of a YouTube video
 `rating` Number of stars out of 5
 
-*Example*
+**Example**
+
 Here is an example of creating an instance for Toy Story, which can then be added to the list of movies to be displayed:
 
 ```python
