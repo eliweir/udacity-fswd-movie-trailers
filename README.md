@@ -4,7 +4,7 @@ Basic movie trailer website created with Python, in partial fulfilment of the Ud
 
 ## Modules
 
-1. movie_trailers_website.py - the core module, that imports others as needed. Creates a list of movies , then passes the list to an HTML generator module to output static content.
+1. movie_trailers_website.py - the core module, that imports others as needed. Creates a list of movies then passes the list to an HTML generator module to output static content.
 2. media.py - used by `movie_trailers_website.py` to instantiate movies.
 3. generate_html.py - used by `movie_trailers_website.py` to generate static HTML page from a list of movies.
 
