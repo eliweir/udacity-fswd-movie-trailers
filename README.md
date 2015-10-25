@@ -1,3 +1,3 @@
-Udacity FSWD Movies Website
+Movies Trailer Website
 =============
-Basic movies website created with Python in partial fulfilment for the Udacity.com Full Stack Web Developer Nanodegree.
+Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004).
