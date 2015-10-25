@@ -1,16 +1,16 @@
 # Movies Trailer Website
 
-Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004). The `generate_html.py` module is a edit of the [`fresh_tomates.py`](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py) file provided in the courseware. All other work original, no attribution necessary.
+Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004). The `generate_html.py` module is a edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
 
 ## Modules
 
-`movie_trailers_website.py`
+1. movie_trailers_website.py
 Main module, that imports others as needed. Creates a list of movies , then passes the list to an HTML generator module to output static content.
 
-`media.py`
+2. media.py
 Used by `movie_trailers_website.py` to instantiate movies.
 
-`generate_html.py`
+3. generate_html.py
 Used by `movie_trailers_website.py` to generate static HTML page from a list of movies.
 
 ##Usage
@@ -40,6 +40,6 @@ toy_story = media.Movie("Toy Story",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc",
                         "4.5")
-```
 
-`movie_list = [movie1, movie2, toy_story]`
+movie_list = [movie1, movie2, toy_story]
+```
