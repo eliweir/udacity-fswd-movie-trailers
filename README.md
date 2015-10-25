@@ -16,14 +16,14 @@ If you wish, the list of movies can be edited (e.g. movies added, removed, and p
 **Movie properties**
 
 Movies have the following properties, which are all strings:
-`title` The movie title
-`year` Year the movie was released
-`director` The movie director
-`storyline` Brief summary of the plot
-`cast` Main actors
-`image_url` URL of a poster image
-`trailer_url` URL of a YouTube video
-`rating` Number of stars out of 5
+- `title` The movie title
+- `year` Year the movie was released
+- `director` The movie director
+- `storyline` Brief summary of the plot
+- `cast` Main actors
+- `image_url` URL of a poster image
+- `trailer_url` URL of a YouTube video
+- `rating` Number of stars out of 5
 
 **Example**
 
