@@ -8,7 +8,7 @@ Basic movie trailer website created with Python, in partial fulfilment of the Ud
 
 Eli Weir, eli@eliweir.com
 
-The `generate_html.py` module is a edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
+The `generate_html.py` module is an edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
 
 ##Installation
 
