@@ -4,11 +4,7 @@
 
 Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004).
 
-**Author**
-
-Eli Weir, eli@eliweir.com
-
-The `generate_html.py` module is an edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
+The `generate_html.py` module is an edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other code by Eli Weir, eli@eliweir.com.
 
 ##Installation
 
