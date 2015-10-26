@@ -1,4 +1,7 @@
-# Used by movie_trailers_website.py to generate static HTML page from a list of movies
+"""
+Used by movie_trailers_website.py to generate static HTML page from a \
+list of movies.
+"""
 
 
 # Dependencies

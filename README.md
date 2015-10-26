@@ -1,15 +1,29 @@
-# Movies Trailer Website
+#Movies Trailer Website
 
-Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004). The `generate_html.py` module is a edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
+##Overview
 
-## Modules
+Basic movie trailer website created with Python, in partial fulfilment of the Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/nd004).
+
+**Author**
+Eli Weir, eli@eliweir.com
+
+The `generate_html.py` module is a edit of the `fresh_tomatoes.py` file  [provided in the courseware](https://github.com/adarsh0806/ud036_StarterCode/blob/master/fresh_tomatoes.py). All other work original, no attribution necessary.
+
+##Modules
 
 1. movie_trailers_website.py - the core module, that imports others as needed. Creates a list of movies then passes the list to an HTML generator module to output static content.
 2. media.py - used by `movie_trailers_website.py` to instantiate movies.
 3. generate_html.py - used by `movie_trailers_website.py` to generate static HTML page from a list of movies.
 
+##Installation
+
+Requires Python 2.7.10, which can be [downloaded](https://www.python.org/downloads/release/python-2710/) from the Python website. Instructions for installation of Python are on the website.
+
+Once Python is installed, fork this repository or download a .zip archive and unzip.
+
 ##Usage
-To use, simply run `movie_trailers_website.py`. This will generate an `index.html` file which will then be displayed. If the `index.html` file already exists it will be overwritten. The `index.html` file can also be viewed directly.
+
+To use, simply run open and run the `movie_trailers_website.py` module using IDLE (see Installation above). This will generate an `index.html` file which will then be displayed. If the `index.html` file already exists it will be overwritten. The `index.html` file can also be viewed directly.
 
 If you wish, the list of movies can be edited (e.g. movies added, removed, and properties such as description changed) in the `movie_trailers_website.py` module.
 
